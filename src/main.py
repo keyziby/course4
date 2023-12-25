@@ -1,5 +1,5 @@
 from config import OPERATIONS_PATH
-from utils import number_format, date_format, get_data, get_sorted_list, get_filtered_data
+from src.utils import number_format, date_format, get_data, get_sorted_list, get_filtered_data
 
 data_dict = get_data(OPERATIONS_PATH)
 date_list = get_filtered_data(data_dict)
